@@ -8,3 +8,13 @@
         menu.classList.toggle('is-active');
     });
 })();
+$('.clicked').click(function(){
+    attribute = $(this).data('detail')
+    console.log(attribute)
+    if(attribute=="indosatweb") {
+        $("#indosatwebdashboard").addClass('is-active')
+    }
+})
+$('.close').click(function(){
+    $('.modal').removeClass('is-active')
+})

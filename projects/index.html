@@ -5,14 +5,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Personal - Free Bulma template</title>
+  <title>Projects - Rishad Harisdias</title>
+  <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
   <!-- Bulma Version 0.9.0-->
   <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
   <link rel="stylesheet" type="text/css" href="../assets/css/personal.css">
-  <script async type="text/javascript" src="../assets/js/bulma.js"></script>
+  
 </head>
 
 <body>
@@ -35,9 +36,9 @@
                 <div class="navbar-end">
                     <div class="tabs is-right">
                         <ul>
-                            <li class="is-active"><a href='../index.html'>Home</a></li>
+                            <li><a href='../'>Home</a></li>
                             <li><a href="">Blog</a></li>
-                            <li><a href="">Projects</a></li>
+                            <li class="is-active"><a href="">Projects</a></li>
                             <li><a href="">Resume</a></li>
                             <li><a href="">Freelance Services</a></li>
                         </ul>
@@ -47,7 +48,23 @@
         </div>
     </nav>
 </div>
-
+<!-- All Modal Goes Here -->
+<div id="indosatwebdashboard" class="modal">
+  <div class="modal-background"></div>
+  <div class="modal-card">
+    <header class="modal-card-head">
+      <p class="modal-card-title">Indosat Web Dashboard</p>
+      <button class="delete" aria-label="close"></button>
+    </header>
+    <section class="modal-card-body">
+      Halo
+    </section>
+    <footer class="modal-card-foot">
+      <button class="button is-success">Ask me more</button>
+      <button class="button close">Close</button>
+    </footer>
+  </div>
+</div>
   <!-- Header -->
   
 
@@ -86,7 +103,7 @@
               </div>
               <footer class="card-footer">
                 <a href="#" class="card-footer-item disabledl">Private</a>
-                <a href="#" class="card-footer-item">Detail</a>
+                <a href="javascript:void(0);" data-detail="indosatweb" class="card-footer-item clicked">Detail</a>
               </footer>
             </div>
             <!-- cards -->
@@ -138,6 +155,31 @@
               </div>
               <footer class="card-footer">
                 <a href="#" class="card-footer-item">Request Demo</a>
+                <a href="#" class="card-footer-item">Detail
+                  </a>
+              </footer>
+            </div>
+            <!-- bandz -->
+            <div class="card">
+              <header class="card-header">
+                <p class="card-header-title">
+                  <span class='mr-1'>LBPH Face Recognition</span>
+                  <span class="is-pulled-right">
+                    <a href="#">
+                      <span class="tag is-default">Machine Learning</span>
+                    </a>
+                    <span class="tag is-default">Private/Public</span>
+                    <span class="tag is-danger">Finished</span>
+                  </span>
+                </p>
+              </header>
+              <div class="card-content">
+                <figure class="image">
+                  <img src="../rasp2.jpg" alt="GSMArena Web Scrape">
+                </figure>
+              </div>
+              <footer class="card-footer">
+                <a href="#" class="card-footer-item">Source Code</a>
                 <a href="#" class="card-footer-item">Detail
                   </a>
               </footer>
@@ -214,6 +256,10 @@
       </p>
     </div>
   </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script async type="text/javascript" src="../assets/js/bulma.js"></script>
 </body>
 
 </html>
