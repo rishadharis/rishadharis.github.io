@@ -1,119 +1,509 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Rishad Harisdias Bustomi</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <!-- Bulma Version 0.9.0-->
-    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
-    <link rel="stylesheet" href="assets/css/bulmacustom.css" />
-    <style type="text/css">
-        html,
-        body {
-            font-family: 'Open Sans';
-        }
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-        img {
-            padding: 5px;
-            border: 1px solid #ccc;
-        }
-    </style>
+  <title>Rishad Harisdias Bustomi</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: MyResume
+  * Updated: Nov 17 2023 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
 <body>
-    <section class="hero is-fullheight is-default is-bold">
-        <div class="hero-head">
-            <nav class="navbar">
-                <div class="container">
-                    <div class="navbar-brand">
-                        <a class="navbar-item" href="">
-                            <img src="profile3.png" alt="Logo">
-                            <!-- <span class='title is-4'>Rishad HB</span> -->
-                        </a>
-                        <span class="navbar-burger burger" data-target="navbarMenu">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </span>
-                    </div>
-                    <div id="navbarMenu" class="navbar-menu">
-                        <div class="navbar-end">
-                            <div class="tabs is-right">
-                                <ul>
-                                    <li class="is-active"><a>Home</a></li>
-                                    <li><a href="projects/">Projects</a></li>
-                                    <li><a href="#">CV</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-        </div>
-        <div class="hero-body">
-            <div class="container has-text-centered">
-                <div class="columns is-vcentered">
-                    <div class="column is-5">
-                        <figure class="image is-4by3">
-                            <img src="front1alt.jpg" alt="Description">
-                        </figure>
-                    </div>
-                    <div class="column is-6 is-offset-1">
-                        <div id="front">
-                            <h1 class="title is-2 typing">
-                                Hello Fellas!
-                            </h1>
-                        </div>
-                        <h2 class="subtitle is-6">
-                            Data Engineer at BTPN Syariah
-                        </h2>
-                        <h2 class="subtitle is-5">
-                            Data Enthusiast. Fall in love with robotic process automation,<br />
-                            interested in web technologies and machine learning.
-                        </h2>
-                        <br>
-                        <p class="has-text-centered">
-                            <a href='https://www.linkedin.com/in/rishad-harisdias/' class="button is-medium is-info is-outlined">
-                                Greet me on LinkedIn
-                            </a>
-                        </p>
-                            </a>
-                        </p>
-                    </div>
-                </div>
-            </div>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
+  <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex flex-column justify-content-center">
+
+    <nav id="navbar" class="navbar nav-menu">
+      <ul>
+        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+        <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+      </ul>
+    </nav><!-- .nav-menu -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center">
+    <div class="container" data-aos="zoom-in" data-aos-delay="100">
+      <h1>Rishad Harisdias Bustomi</h1>
+      <p>I'm <span class="typed" data-typed-items="Data Engineer, Data Enthusiast, Learner"></span></p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/rishad-harisdias" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <p>"Passionate Data Engineer, Lifelong Learner, Ready for Every Challenge."</p>
         </div>
 
-        <div class="hero-foot">
-            <div class="container">
-                <div class="tabs is-centered subtitle">
-                    <ul>
-                        <li><a>Deployed in Github, Hosted on Vercel App. By Rishad Harisdias</a></li>
-                    </ul>
-                </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="assets/img/rishad.jpeg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content">
+            <h3>Data Engineer</h3>
+            <p class="fst-italic">
+              Hi, my name is Rishad Harisdias Bustomi and you can call me Rishad.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>Oktober 1999</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>rishadharis.github.io</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                  <!-- <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>New York, USA</span></li> -->
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>24</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>rishad.harisdias@gmail.com</span></li>
+                </ul>
+              </div>
             </div>
+            <p>
+              I like playing chess, reading article about anything, playing games, sleep, learn learn and learn.
+            </p>
+          </div>
         </div>
-    </section>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="assets/js/bulma.js"></script>
-    <script>
-        $(function () {
-            setTimeout(function () {
-                $("#front").html(`
-                <h1 class="title is-2 typing">
-                 I'm Rishad Harisdias B
-                </h1>
-                `)
-            }, 3000);
-        })
-    </script>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Facts Section ======= -->
+    
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Skills</h2>
+          <p>The assessment here does not represent a comparison between me and others, instead here is the range that indicates my confidence in my skills, where 100% indicates the skill that I am most confident in. </p>
+          
+        </div>
+
+        <div class="row skills-content">
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill">Python <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">SQL <i class="val">95%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">AWS <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill">ETL <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Backend <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Big Data Processing <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Resume</h2>
+          <p>s</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="resume-title">Summary</h3>
+            <div class="resume-item pb-0">
+              <h4>Rishad Harisdias Bustomi</h4>
+              <p><em>A data practitioner with more than 3 years of experience. Work as data engineer in Avows Technologies - BTPN Syariah Data Management departement. Currently exploring more about AWS Cloud Platform and Data Architecture.</em></p>
+              <ul>
+                <li>Jakarta, Indonesia</li>
+                <li>(62) 895338133018</li>
+                <li>rishad.harisdias@gmail.com</li>
+              </ul>
+            </div>
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Bachelor of Informatics Engineering (S1)</h4>
+              <h5>2021 - 2023</h5>
+              <p><em>Bina Nusantara University</em></p>
+              <p>3.53/4.00 Cumlaude</p>
+            </div>
+            <div class="resume-item">
+              <h4>Associate of Telecommunication Engineering (D3)</h4>
+              <h5>2017 - 2020</h5>
+              <p><em>Politeknik Negeri Bandung</em></p>
+              <p>3.54/4.00 Graduated with honors</p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Data Engineer</h4>
+              <h5>Jul 2022 - Present</h5>
+              <p><em>Avows Technologies - BTPN Syariah</em></p>
+              <ul>
+                <li>Designing, Developing, Maintaining on-premises ETL job using SSIS and SQL Server PDW</li>
+                <li>Migrating existing data warehouse architecture from on-premises to AWS Cloud. </li>
+                <li>Migrating historical data from SQL Server PDW to Glue Catalog and Redshift</li>
+                <li>Developing, overseeing, and supporting batch and streaming ETL conversion on data migration team.</li>
+                <li>Helping team by creating framework tools to make work easier using C# or in AWS</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>BI Engineer Facilitator</h4>
+              <h5>Feb 2023 - Apr 2023</h5>
+              <p><em>Seasonal Facilitator at Night Time, Binar Academy</em></p>
+              <ul>
+                <li>Work as an facilitator for Kominfo Digital Talent (Digitalent) Professional Academy (ProA) bootcamp.</li>
+                <li>Facilitating class of 52 students.</li>
+                <li>Sharing knowledge and practice about Business Intelligence Field such as ETL, Data Warehouse, SQL, etc.</li>
+                <li>Evaluate final project of students.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Data Analyst Engineer</h4>
+              <h5>Jun 2021 - Jul 2022</h5>
+              <p><em>Global One Solusindo - Huawei</em></p>
+              <ul>
+                <li>Acquire data from various sources for reporting and analytics.</li>
+                <li>Dvelop and implement data pipeline/ETL.</li>
+                <li>Develop and implement web automation and RPA</li>
+                <li>Designing and developing data architecture for reporting automation.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Data Analyst Engineer</h4>
+              <h5>Sep 2020 - May 2021</h5>
+              <p><em>Personel Alih Daya - Huawei</em></p>
+              <ul>
+                <li>Acquire data from various sources for reporting and analytics.</li>
+                <li>Dvelop and implement data pipeline/ETL.</li>
+                <li>Develop and implement web automation and RPA</li>
+                <li>Designing and developing data architecture for reporting automation.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Web Developer</h4>
+              <h5>Feb 2020 - Apr 2020</h5>
+              <p><em>Internship at ATCS Dishub Kota Bandung</em></p>
+              <ul>
+                <li>Building vehicle counter device and application, work as web developer.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Public Portfolio</h2>
+          <p>Please notes that some project might be not shown here for specific reason (private, forget, etc).</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-web">Web Dashboard</li>
+              <li data-filter=".filter-tableau">Tableau</li>
+              <li data-filter=".filter-article">Article</li>
+              <li data-filter=".filter-others">Others</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/sibima.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>SIBIMA</h4>
+                <p>Educational Drug Information System Dashboard made for Polda Jabar</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/sibima.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                  <a href="#" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/skipm.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>SILAKOM</h4>
+                <p>Information System Dashboard made for Badan Karantina Ikan Bandung</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/skipm.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="#" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-tableau">
+            <div class="portfolio-wrap">
+              <img src="assets/img/executive.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Executive Tableau Dashboard</h4>
+                <p>An tableau dashboard made for personal project</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/executive.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                  <a href="#" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-tableau">
+            <div class="portfolio-wrap">
+              <img src="assets/img/generation.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Generation Spend Dashboard</h4>
+                <p>An tableau dashboard made for personal project</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/generation.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                  <a href="#" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/indosatweb.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Indosat Web Dashboard</h4>
+                <p>Internal Web Dashboard for Indosat (All data shown here is dummy)</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/indosatweb.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                  <a href="#" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-article">
+            <div class="portfolio-wrap">
+              <img src="assets/img/medium.png" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Medium Article About Resumable</h4>
+                <p>Title : Implementasi resumable ETL di AWS menggunakan RDS, Step Function, dan Glue</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/medium.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
+                  <a href="#" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    
+
+    
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+        </div>
+
+        <div class="row mt-1">
+
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>Jakarta Selatan, DKI Jakarta</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>rishad.harisdias@gmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>WA:</h4>
+                <p>+62 895338133018</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0">
+
+            <form action="#" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>Rishad Harisdias Bustomi</h3>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/rishad-harisdias" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+      <div class="copyright">
+        Made by love by <strong><span>Rishad Harisdias Bustomi</span></strong>.
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: [license-url] -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>
